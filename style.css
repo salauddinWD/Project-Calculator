@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(45deg, #6d5d5d, #273744);
+}
+.calculator{
+    border: 2px solid #ffe7e7;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input{
+    width: 360px;
+    padding: 20pz;
+    margin: 10px;
+    border: none;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+    color: azure;
+}
+
+input::placeholder{
+    color: azure;
+}
+button{
+    font-size: 20px;
+    border: none;
+    width: 80px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background: transparent; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: rgb(5, 5, 5);
+}
+#color{
+    background-color: rgb(225, 127, 127);
+}
+
+#orrange{
+    background-color: rgb(212, 157, 55);
+}
+#darkblue{
+    color: #ffffff;
+    background-color: rgb(90, 90, 190);
+}
+#green{
+    background-color: rgb(92, 178, 92);
+}
